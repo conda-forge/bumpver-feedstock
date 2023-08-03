@@ -1,5 +1,5 @@
 {% set name = "bumpver" %}
-{% set version = "2022.1125" %}
+{% set version = "2023.1125" %}
 
 
 package:
