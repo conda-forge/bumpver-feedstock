@@ -26,6 +26,7 @@ requirements:
     - colorama >=0.4
     - lexid
     - lib3to6
+    - looseversion
     - pathlib2
     - setuptools >=45.0.0
     - toml
