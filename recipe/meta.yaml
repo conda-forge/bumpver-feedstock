@@ -1,5 +1,5 @@
 {% set name = "bumpver" %}
-{% set version = "2022.1120" %}
+{% set version = "2023.1125" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bumpver-{{ version }}.tar.gz
-  sha256: ff8ad562a2ed87e862e07683cb68c4b61046679bf155f7a7ebb20b2ea47775cd
+  sha256: a61f9025c63cdb645db2a8826a01e44d1fa55f689f1e10d7c80148c50e61ef91
 
 build:
   number: 0
@@ -24,6 +24,7 @@ requirements:
     - click
     - colorama >=0.4
     - lexid
+    - lib3to6
     - pathlib2
     - setuptools >=45.0.0
     - toml
