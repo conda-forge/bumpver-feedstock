@@ -1,11 +1,11 @@
-About bumpver
-=============
+About bumpver-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bumpver-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mbarkhau/bumpver
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bumpver-feedstock/blob/main/LICENSE.txt)
 
 Summary: Bump version numbers in project files.
 
