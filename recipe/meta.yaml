@@ -1,5 +1,5 @@
 {% set name = "bumpver" %}
-{% set version = "2023.1126" %}
+{% set version = "2023.1127" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bumpver-{{ version }}.tar.gz
-  sha256: 85f79632d0283aa24ba4576d3275f82f143dc21e5641c9019420da8dddc8e31e
+  sha256: ce9e5cb393168842adcc4978b226ad9045606704330937a0656e7e9f4aaba54f
 
 build:
   number: 0
