@@ -7,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bumpver-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bumpver-{{ version }}.tar.gz
   sha256: 74f7ebc294b2240f346e99748cc6f238e57b050999d7428db75d76baf2bf1437
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.5
+    - python {{ python_min }}
     - pip
     - lib3to6
   run:
-    - python >=3.5
+    - python >={{ python_min }}
     - click
     - colorama >=0.4
     - lexid
@@ -38,6 +38,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/mbarkhau/bumpver
